@@ -1,5 +1,5 @@
 
-let resultado = ranque(50, 25)
+let resultado = ranque(56, 1)
 console.log(resultado)
 
 
@@ -22,5 +22,5 @@ function ranque(vitorias, derrotas){
     }else if(saldoVitorias >= 101){
         nivel = "Imortal"
     }
-    return "O Herói tem de saldo de " + saldoVitorias + " está no nível de " + nivel 
+    return "O Herói tem de saldo " + saldoVitorias + " está no nível de " + nivel 
 }
